@@ -1,0 +1,111 @@
+[ {
+  "uid" : "2a67e2e8ac01662b",
+  "name" : "Hide 3 hour weather forecast",
+  "time" : {
+    "start" : 1594900315396,
+    "stop" : 1594900320885,
+    "duration" : 5489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f232a096b2e43e54",
+  "name" : "View details of Min and Maximum temperatures",
+  "time" : {
+    "start" : 1594900324160,
+    "stop" : 1594900326388,
+    "duration" : 2228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f5f2c3b2e080b92",
+  "name" : "View details of current condition",
+  "time" : {
+    "start" : 1594900320921,
+    "stop" : 1594900321021,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69753fb1e003aa03",
+  "name" : "Click the Day",
+  "time" : {
+    "start" : 1594900309424,
+    "stop" : 1594900315214,
+    "duration" : 5790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b0df4ef7723e65c",
+  "name" : "Five Day Weather Forecast page loaded successfully",
+  "time" : {
+    "start" : 1594900296019,
+    "stop" : 1594900296378,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82d802f2b89a2471",
+  "name" : "View details of dominant windspeed and direction",
+  "time" : {
+    "start" : 1594900321030,
+    "stop" : 1594900322582,
+    "duration" : 1552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15ad8813180fe52a",
+  "name" : "Launch the chrome browser",
+  "time" : {
+    "start" : 1594900293018,
+    "stop" : 1594900296018,
+    "duration" : 3000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c26d8d043be25917",
+  "name" : "View the 3 hourly forecast",
+  "time" : {
+    "start" : 1594900315214,
+    "stop" : 1594900315382,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c91c7e0ef7af4ded",
+  "name" : "View details of aggregate rainfall",
+  "time" : {
+    "start" : 1594900322603,
+    "stop" : 1594900324138,
+    "duration" : 1535
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d27b6e1f022e517",
+  "name" : "Search with City Name",
+  "time" : {
+    "start" : 1594900296666,
+    "stop" : 1594900308975,
+    "duration" : 12309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e1f16fe4742e4f0",
+  "name" : "Count the number of days",
+  "time" : {
+    "start" : 1594900308975,
+    "stop" : 1594900309402,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "span[data-test=\"speed-2\"]"
+}

@@ -1,0 +1,164 @@
+{
+  "uid" : "c26d8d043be25917",
+  "name" : "View the 3 hourly forecast",
+  "fullName" : "View 3 hour weather forecast .View the 3 hourly forecast",
+  "historyId" : "be3d3c8fbfc4d9774f2bbcbc89826d07",
+  "time" : {
+    "start" : 1594900315214,
+    "stop" : 1594900315382,
+    "duration" : 168
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1594900315215,
+        "stop" : 1594900315272,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1ac9ac12da3dcb",
+        "name" : "Request",
+        "source" : "d1ac9ac12da3dcb.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "345168f3bf47889b",
+        "name" : "Response",
+        "source" : "345168f3bf47889b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/6f02e7b7-4f5d-4cb3-a618-c52bf2b4c6af/text",
+      "time" : {
+        "start" : 1594900315276,
+        "stop" : 1594900315308,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a6a577d8843d641",
+        "name" : "Response",
+        "source" : "4a6a577d8843d641.json",
+        "type" : "application/json",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1594900315308,
+        "stop" : 1594900315342,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e83fc5967c7d0ac8",
+        "name" : "Request",
+        "source" : "e83fc5967c7d0ac8.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "d4e555c0433ef98e",
+        "name" : "Response",
+        "source" : "d4e555c0433ef98e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/6bb66efd-07e2-41e2-a783-cfe5c43d8f0e/text",
+      "time" : {
+        "start" : 1594900315348,
+        "stop" : 1594900315381,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1668281228f57820",
+        "name" : "Response",
+        "source" : "1668281228f57820.json",
+        "type" : "application/json",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "View 3 hour weather forecast "
+  }, {
+    "name" : "testClass",
+    "value" : "View 3 hour weather forecast "
+  }, {
+    "name" : "testMethod",
+    "value" : "View the 3 hourly forecast"
+  }, {
+    "name" : "package",
+    "value" : "View 3 hour weather forecast "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c26d8d043be25917.json",
+  "parameterValues" : [ "chrome" ]
+}

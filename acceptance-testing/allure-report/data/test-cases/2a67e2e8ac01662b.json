@@ -1,0 +1,137 @@
+{
+  "uid" : "2a67e2e8ac01662b",
+  "name" : "Hide 3 hour weather forecast",
+  "fullName" : "Hide 3 hour weather forecast .Hide 3 hour weather forecast",
+  "historyId" : "25f7fe31c72d81e4f089e72949bc932c",
+  "time" : {
+    "start" : 1594900315396,
+    "stop" : 1594900320885,
+    "duration" : 5489
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1594900315396,
+        "stop" : 1594900315470,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee390f113180874e",
+        "name" : "Request",
+        "source" : "ee390f113180874e.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "625ed271f926b683",
+        "name" : "Response",
+        "source" : "625ed271f926b683.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1594900315474,
+        "stop" : 1594900315568,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85909ca04f3d5775",
+        "name" : "Request",
+        "source" : "85909ca04f3d5775.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "211396419b3ac79d",
+        "name" : "Response",
+        "source" : "211396419b3ac79d.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/2ae87dd9-8209-4c32-947b-53005d0ab042/click",
+      "time" : {
+        "start" : 1594900315571,
+        "stop" : 1594900315884,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Hide 3 hour weather forecast "
+  }, {
+    "name" : "testClass",
+    "value" : "Hide 3 hour weather forecast "
+  }, {
+    "name" : "testMethod",
+    "value" : "Hide 3 hour weather forecast"
+  }, {
+    "name" : "package",
+    "value" : "Hide 3 hour weather forecast "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a67e2e8ac01662b.json",
+  "parameterValues" : [ "chrome" ]
+}
