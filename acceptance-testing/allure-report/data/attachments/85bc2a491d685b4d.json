@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#root > div > div:nth-child(2) > div.details > div:nth-child(2) > span:nth-child(1) > span"
+}

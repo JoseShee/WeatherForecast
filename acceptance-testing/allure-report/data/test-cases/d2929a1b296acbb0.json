@@ -1,0 +1,110 @@
+{
+  "uid" : "d2929a1b296acbb0",
+  "name" : "Launch chrome browser",
+  "fullName" : "0_Five Day Weather Forecast page loaded successfully.Launch chrome browser",
+  "historyId" : "a5a5a8e2fa7b055525a67b6125a1ebef",
+  "time" : {
+    "start" : 1595229295114,
+    "stop" : 1595229296805,
+    "duration" : 1691
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1595229295118,
+        "stop" : 1595229296788,
+        "duration" : 1670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4b03ec807337e81",
+        "name" : "Request",
+        "source" : "d4b03ec807337e81.json",
+        "type" : "application/json",
+        "size" : 37
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1595229296793,
+        "stop" : 1595229296802,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30483438158210fd",
+        "name" : "Response",
+        "source" : "30483438158210fd.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "0_Five Day Weather Forecast page loaded successfully"
+  }, {
+    "name" : "testClass",
+    "value" : "0_Five Day Weather Forecast page loaded successfully"
+  }, {
+    "name" : "testMethod",
+    "value" : "Launch chrome browser"
+  }, {
+    "name" : "package",
+    "value" : "0_Five Day Weather Forecast page loaded successfully"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2929a1b296acbb0.json",
+  "parameterValues" : [ "chrome" ]
+}

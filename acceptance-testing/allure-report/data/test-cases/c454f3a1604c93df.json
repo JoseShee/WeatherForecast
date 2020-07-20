@@ -1,0 +1,58 @@
+{
+  "uid" : "c454f3a1604c93df",
+  "name" : "rounded value -rainfall",
+  "fullName" : "7_Aggregate rainfall.rounded value -rainfall",
+  "historyId" : "5e8b9725e1acee125c8cb0aa0de34d33",
+  "time" : {
+    "start" : 1595229319456,
+    "stop" : 1595229319456,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "7_Aggregate rainfall"
+  }, {
+    "name" : "testClass",
+    "value" : "7_Aggregate rainfall"
+  }, {
+    "name" : "testMethod",
+    "value" : "rounded value -rainfall"
+  }, {
+    "name" : "package",
+    "value" : "7_Aggregate rainfall"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c454f3a1604c93df.json",
+  "parameterValues" : [ "chrome" ]
+}

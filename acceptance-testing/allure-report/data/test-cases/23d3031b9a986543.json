@@ -1,0 +1,58 @@
+{
+  "uid" : "23d3031b9a986543",
+  "name" : "round value - max and min condition",
+  "fullName" : "8_Min and Max temperature.round value - max and min condition",
+  "historyId" : "64cb0ab185191ed889684c8cf3d12505",
+  "time" : {
+    "start" : 1595229319775,
+    "stop" : 1595229319776,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "8_Min and Max temperature"
+  }, {
+    "name" : "testClass",
+    "value" : "8_Min and Max temperature"
+  }, {
+    "name" : "testMethod",
+    "value" : "round value - max and min condition"
+  }, {
+    "name" : "package",
+    "value" : "8_Min and Max temperature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23d3031b9a986543.json",
+  "parameterValues" : [ "chrome" ]
+}

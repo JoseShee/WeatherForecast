@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595229319177' stop='1595229319246'>
+    <name>6_Most dominant windspeed and direction</name>
+    <title>6_Most dominant windspeed and direction</title>
+    <test-cases>
+        <test-case start='1595229319177' status='passed' stop='1595229319245'>
+            <name>Most dominant windspeed and direction</name>
+            <title>Most dominant windspeed and direction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1595229319178' status='passed' stop='1595229319189'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='35cf3200-7980-426e-877e-01702d57faaf-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='549b1538-2272-4a4e-9dd6-0019561b65c2-attachment.json' type='application/json' size='457'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1595229319196' status='passed' stop='1595229319212'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f7b39847-9655-46a9-8cff-ac376531d580-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='153a5971-dac0-4cb6-8328-1034cfd09e0c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1595229319213' status='passed' stop='1595229319226'>
+                    <name>GET /session/:sessionId/element/555e571f-2270-4812-86d0-e19814b95559/text</name>
+                    <title>GET /session/:sessionId/element/555e571f-2270-4812-86d0-e19814b95559/text</title>
+                    <attachments>
+                        <attachment title='Response' source='e63d3545-0f29-4c74-8b4a-2857af817668-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1595229319226' status='passed' stop='1595229319243'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c99e40dc-b714-453b-b52d-c5fa584963e9-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='4a900492-3a21-4972-afcd-ad0c62f200a6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1595229319245' status='passed' stop='1595229319246'>
+            <name>round value -windspeed</name>
+            <title>round value -windspeed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

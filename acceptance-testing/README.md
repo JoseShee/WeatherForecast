@@ -50,63 +50,59 @@ To start up the application:
 
     $ npm run develop
 
-'***************Automation Testing *************'
+############# Automation Test Detais ######################
+#Framework: Mocha
+#Automation Tool: WebdriverIO
+#ScriptingLanguage Used: ECMAS
+#Additional Config implemented: babel and gulp
 
-npm install --save-dev @wdio/cli
+#Steps implemented:
+1. npm install --save-dev @wdio/cli
 
-npx wdio config (Give the necessary setting required like Mocha framework, Allure, spec & mochawesome reporters)
+2. npx wdio config  --> This by default creates wdio.config.js file in root folder
+(Select framework: Mocha, 
+Select Reports: allure, spec and mochaawesome,
+Remaining fields you can select the default)
 
-npm i --save-dev @babel/preset-env
-Create babel.config.js in root folder:
-module.exports = {
-    presets: [
-        [
-            '@babel/preset-env',
-            {
-                targets: {
-                    node: 12,
-                },
-            },
-        ],
-    ],
-}
-Under the test/specs folder, create js file to write testcases
+3. In wdio.config.js, remove the default hardcoded values and pass our own custom values which can be done by:
+    1. Create lib folder -> create weatherCOnfig.js file 
+    2. In weatherconfig.js, we can create custom values & pass those to wdio.conf.js
+    
+4.npm i @wdio/allure-reporter --save-dev
+5.npm i allure-commandline -g --save-dev
+    
+6.Now configure the wdio.config.js, under Reporters:
+    reporterOptions: { allure: { outputDir: './reports/allure-results' } }
+    
+7. npm i --save-dev @babel/preset-env
 
-In package.json, Modify the test:
-"test": "wdio wdio.conf.js"
+8. Create babel.config.js in root folder and update the below code to set node version:
+    module.exports = { presets: [ [ '@babel/preset-env', { targets: { node: 12, }, }, ], ], }
+    
+9. Under the test/specs folder, create the test files (weather.js) in mocha framework
 
-(Optional: If you want to debug the wdio, npx wdio run ./wdio.conf.js --watch)
+10. npm install --save-dev gulp
+11. npm install --global gulp-cli
+12. npm install --save-dev gulp-run-command
 
-Write the testcases in weather.js
+13. npm install del --save-dev
 
-Execute: npm run test
+14. Create gulpfile.js --> 
+    write the code to execute the npm or any tasks in sequence 
+    (In our code, 
+    it first execute cleanreport, 
+    then webdriverIO to execute test files, 
+    then allure to generate reports)
+    
+15. In package.json , update the scripts: "test": "gulp gulptest" 
+    -> This executes the gulp task mentioned in gulpfile.js
+   
+All set, we can execute the Automation script, follow the steps below:
 
-Reports: 
-Install the package
-npm i @wdio/allure-reporter --save-dev
-Install Allure command globally
-npm i allure-commandline -g --save-dev
-Now configure the wdio.conf.js, add the below code under the Reporters
-reporterOptions: {
-        allure: {
-            outputDir: './reports/allure-results'
-        }
-    },
+#Steps To execute:
 
-After this step, 
-npm run test
-The allure-results, contains the test results in many json formats
-The below command generates the reports in HTML allure report
-allure generate "<path of the allure-results>"
+npm install
+npm run develop (After Application server starts)
 
-The above command, create HTML Allure report inside the allure-report folder.
-
-Then run the below command to open the html file:
-allure open
-
-
-
-
-
-
-
+npm run test or gulp gulptest
+(This will execute the Automation script and wait till the Allure report automatically opens in the chrome driver)

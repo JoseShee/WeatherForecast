@@ -1,0 +1,200 @@
+{
+  "uid" : "77768c71160d08a4",
+  "name" : "Count the number of days",
+  "fullName" : "2_View 5 day weather forecast.Count the number of days",
+  "historyId" : "97a998061ca3c1f34ff5c9b829b1ac74",
+  "time" : {
+    "start" : 1595229303261,
+    "stop" : 1595229303360,
+    "duration" : 99
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1595229303261,
+        "stop" : 1595229303278,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b942857826df1037",
+        "name" : "Request",
+        "source" : "b942857826df1037.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "b81c16e7c3b1e998",
+        "name" : "Response",
+        "source" : "b81c16e7c3b1e998.json",
+        "type" : "application/json",
+        "size" : 457
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/b3394987-4a50-4d2a-b387-f6a460626759/text",
+      "time" : {
+        "start" : 1595229303282,
+        "stop" : 1595229303298,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc9d9e92f81b16be",
+        "name" : "Response",
+        "source" : "cc9d9e92f81b16be.json",
+        "type" : "application/json",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/950ff4b3-f7f6-4247-a8db-28cc03e0bd5b/text",
+      "time" : {
+        "start" : 1595229303298,
+        "stop" : 1595229303314,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd6b7c6600562cdb",
+        "name" : "Response",
+        "source" : "fd6b7c6600562cdb.json",
+        "type" : "application/json",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/1c8108b9-6076-43c2-94b3-2eb424b5fa88/text",
+      "time" : {
+        "start" : 1595229303314,
+        "stop" : 1595229303328,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15cb43afdbfd18d2",
+        "name" : "Response",
+        "source" : "15cb43afdbfd18d2.json",
+        "type" : "application/json",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/79c73b46-c7cd-4d70-a16f-81197008e84f/text",
+      "time" : {
+        "start" : 1595229303329,
+        "stop" : 1595229303343,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea3ebb229c76d4ff",
+        "name" : "Response",
+        "source" : "ea3ebb229c76d4ff.json",
+        "type" : "application/json",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/6d9c2ced-fc34-464c-8dc6-801a17658845/text",
+      "time" : {
+        "start" : 1595229303344,
+        "stop" : 1595229303358,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28e1dc1abe61cae8",
+        "name" : "Response",
+        "source" : "28e1dc1abe61cae8.json",
+        "type" : "application/json",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "2_View 5 day weather forecast"
+  }, {
+    "name" : "testClass",
+    "value" : "2_View 5 day weather forecast"
+  }, {
+    "name" : "testMethod",
+    "value" : "Count the number of days"
+  }, {
+    "name" : "package",
+    "value" : "2_View 5 day weather forecast"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77768c71160d08a4.json",
+  "parameterValues" : [ "chrome" ]
+}

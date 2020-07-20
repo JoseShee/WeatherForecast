@@ -2,151 +2,190 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "0-1",
+    "name" : "0-2",
     "children" : [ {
-      "name" : "View details of aggregate rainfall",
-      "uid" : "c91c7e0ef7af4ded",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "Hide 3 hour weather forecast",
+      "uid" : "ca58e690b6d58ad0",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900322603,
-        "stop" : 1594900324138,
-        "duration" : 1535
+        "start" : 1595229303776,
+        "stop" : 1595229318914,
+        "duration" : 15138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "round value -windspeed",
+      "uid" : "e012d43702c41695",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595229319245,
+        "stop" : 1595229319246,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Five Day Weather Forecast page loaded successfully",
-      "uid" : "3b0df4ef7723e65c",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "uid" : "765b9fccbbc7ee9a",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900296019,
-        "stop" : 1594900296378,
-        "duration" : 359
+        "start" : 1595229296806,
+        "stop" : 1595229296912,
+        "duration" : 106
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "View details of dominant windspeed and direction",
-      "uid" : "82d802f2b89a2471",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "Verify 3 hourly forecast displayed",
+      "uid" : "1249957c39216275",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900321030,
-        "stop" : 1594900322582,
-        "duration" : 1552
+        "start" : 1595229303364,
+        "stop" : 1595229303767,
+        "duration" : 403
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "View details of current condition",
-      "uid" : "2f5f2c3b2e080b92",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "Aggregate rainfall",
+      "uid" : "44daa65e16f056d0",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900320921,
-        "stop" : 1594900321021,
-        "duration" : 100
+        "start" : 1595229319251,
+        "stop" : 1595229319456,
+        "duration" : 205
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Launch the chrome browser",
-      "uid" : "15ad8813180fe52a",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "Min and Max temperature",
+      "uid" : "ca37cf496765abc1",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900293018,
-        "stop" : 1594900296018,
-        "duration" : 3000
+        "start" : 1595229319464,
+        "stop" : 1595229319775,
+        "duration" : 311
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Hide 3 hour weather forecast",
-      "uid" : "2a67e2e8ac01662b",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "Launch chrome browser",
+      "uid" : "d2929a1b296acbb0",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900315396,
-        "stop" : 1594900320885,
-        "duration" : 5489
+        "start" : 1595229295114,
+        "stop" : 1595229296805,
+        "duration" : 1691
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Click the Day",
-      "uid" : "69753fb1e003aa03",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "Most dominant windspeed and direction",
+      "uid" : "1468e54d5aa5797f",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900309424,
-        "stop" : 1594900315214,
-        "duration" : 5790
+        "start" : 1595229319177,
+        "stop" : 1595229319245,
+        "duration" : 68
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "Count the number of days",
-      "uid" : "9e1f16fe4742e4f0",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "Most dominant current condition",
+      "uid" : "e233444dc155c1d7",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900308975,
-        "stop" : 1594900309402,
-        "duration" : 427
+        "start" : 1595229318936,
+        "stop" : 1595229319171,
+        "duration" : 235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "rounded value -rainfall",
+      "uid" : "c454f3a1604c93df",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595229319456,
+        "stop" : 1595229319456,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative scenario - invalid cityname",
+      "uid" : "a3ab679be2193cb1",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595229296922,
+        "stop" : 1595229301719,
+        "duration" : 4797
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "Search with City Name",
-      "uid" : "d27b6e1f022e517",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "uid" : "64a3499b1f250325",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900296666,
-        "stop" : 1594900308975,
-        "duration" : 12309
+        "start" : 1595229301719,
+        "stop" : 1595229303253,
+        "duration" : 1534
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "View the 3 hourly forecast",
-      "uid" : "c26d8d043be25917",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "Count the number of days",
+      "uid" : "77768c71160d08a4",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900315214,
-        "stop" : 1594900315382,
-        "duration" : 168
+        "start" : 1595229303261,
+        "stop" : 1595229303360,
+        "duration" : 99
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "View details of Min and Maximum temperatures",
-      "uid" : "f232a096b2e43e54",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "name" : "round value - max and min condition",
+      "uid" : "23d3031b9a986543",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1594900324160,
-        "stop" : 1594900326388,
-        "duration" : 2228
+        "start" : 1595229319775,
+        "stop" : 1595229319776,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
+    "uid" : "880a094af3dffab161e2023284569d6f"
   } ]
 }

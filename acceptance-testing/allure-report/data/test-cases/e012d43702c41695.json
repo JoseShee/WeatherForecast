@@ -1,0 +1,58 @@
+{
+  "uid" : "e012d43702c41695",
+  "name" : "round value -windspeed",
+  "fullName" : "6_Most dominant windspeed and direction.round value -windspeed",
+  "historyId" : "580a3666aaf71aa69424082204480814",
+  "time" : {
+    "start" : 1595229319245,
+    "stop" : 1595229319246,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "6_Most dominant windspeed and direction"
+  }, {
+    "name" : "testClass",
+    "value" : "6_Most dominant windspeed and direction"
+  }, {
+    "name" : "testMethod",
+    "value" : "round value -windspeed"
+  }, {
+    "name" : "package",
+    "value" : "6_Most dominant windspeed and direction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e012d43702c41695.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1595229295113' stop='1595229296912'>
+    <name>0_Five Day Weather Forecast page loaded successfully</name>
+    <title>0_Five Day Weather Forecast page loaded successfully</title>
+    <test-cases>
+        <test-case start='1595229295114' status='passed' stop='1595229296805'>
+            <name>Launch chrome browser</name>
+            <title>Launch chrome browser</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1595229295118' status='passed' stop='1595229296788'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3f491247-01a2-46c8-90b8-51332cf8c2cd-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1595229296793' status='passed' stop='1595229296802'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='8d00599a-7310-45d1-88aa-1165666532e9-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1595229296806' status='passed' stop='1595229296912'>
+            <name>Five Day Weather Forecast page loaded successfully</name>
+            <title>Five Day Weather Forecast page loaded successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1595229296808' status='passed' stop='1595229296828'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0755e880-3e1c-4ac3-8d14-1973e793040b-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='1eb9df66-c8e7-41ca-aa85-f1c8c1065f5e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1595229296837' status='passed' stop='1595229296857'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='3d7cb9cd-fd71-4072-98b3-e84496dd89a3-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='5778ac5b-6520-476e-90f1-d1d58303dc26-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1595229296857' status='passed' stop='1595229296870'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='496dcc0e-043a-4ea8-856c-ab5b7e6881cf-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='0218af94-55a8-4fd5-8cce-6cbdef3fb456-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1595229296873' status='passed' stop='1595229296896'>
+                    <name>GET /session/:sessionId/element/478bb7c5-b86d-4a44-b9fb-efe21e544669/text</name>
+                    <title>GET /session/:sessionId/element/478bb7c5-b86d-4a44-b9fb-efe21e544669/text</title>
+                    <attachments>
+                        <attachment title='Response' source='eef5bab4-47fb-4b7c-93c9-368548d16010-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1595229296898' status='passed' stop='1595229296910'>
+                    <name>GET /session/:sessionId/element/478bb7c5-b86d-4a44-b9fb-efe21e544669/text</name>
+                    <title>GET /session/:sessionId/element/478bb7c5-b86d-4a44-b9fb-efe21e544669/text</title>
+                    <attachments>
+                        <attachment title='Response' source='0537e1ba-c4fe-42c9-8cf5-2691709109b4-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

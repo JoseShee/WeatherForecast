@@ -1,0 +1,170 @@
+{
+  "uid" : "1468e54d5aa5797f",
+  "name" : "Most dominant windspeed and direction",
+  "fullName" : "6_Most dominant windspeed and direction.Most dominant windspeed and direction",
+  "historyId" : "19963abd8f26006ece177e52bb7a1a3b",
+  "time" : {
+    "start" : 1595229319177,
+    "stop" : 1595229319245,
+    "duration" : 68
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1595229319178,
+        "stop" : 1595229319189,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3404860df2316503",
+        "name" : "Request",
+        "source" : "3404860df2316503.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "e05c5f6726815472",
+        "name" : "Response",
+        "source" : "e05c5f6726815472.json",
+        "type" : "application/json",
+        "size" : 457
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595229319196,
+        "stop" : 1595229319212,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d94df1b43ecdc4c",
+        "name" : "Request",
+        "source" : "9d94df1b43ecdc4c.json",
+        "type" : "application/json",
+        "size" : 71
+      }, {
+        "uid" : "a77a5dc530d38e2a",
+        "name" : "Response",
+        "source" : "a77a5dc530d38e2a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/555e571f-2270-4812-86d0-e19814b95559/text",
+      "time" : {
+        "start" : 1595229319213,
+        "stop" : 1595229319226,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aec0c8c766360c20",
+        "name" : "Response",
+        "source" : "aec0c8c766360c20.json",
+        "type" : "application/json",
+        "size" : 6
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1595229319226,
+        "stop" : 1595229319243,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64ffb397e89d7ec0",
+        "name" : "Request",
+        "source" : "64ffb397e89d7ec0.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "75b529c9674d2726",
+        "name" : "Response",
+        "source" : "75b529c9674d2726.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "6_Most dominant windspeed and direction"
+  }, {
+    "name" : "testClass",
+    "value" : "6_Most dominant windspeed and direction"
+  }, {
+    "name" : "testMethod",
+    "value" : "Most dominant windspeed and direction"
+  }, {
+    "name" : "package",
+    "value" : "6_Most dominant windspeed and direction"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1468e54d5aa5797f.json",
+  "parameterValues" : [ "chrome" ]
+}

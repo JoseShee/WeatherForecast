@@ -1,8 +1,8 @@
 {
-  "total" : 8,
+  "total" : 9,
   "items" : [ {
-    "uid" : "5f29b18178f45a455b781a9525c3de21",
-    "name" : "Launching the Five Day Weather Forecast",
+    "uid" : "be9a6566c6c7d805e355462a784f412a",
+    "name" : "0_Five Day Weather Forecast page loaded successfully",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "bacc507b29146211715a54482fbd973f",
-    "name" : "View 5 day weather forecast",
+    "uid" : "b82f4f4e70bec8b33870e8b19df47220",
+    "name" : "1_Search with City Name",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +23,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "1ebbcad19ad00f08b4f4676f808ef08e",
-    "name" : "View 3 hour weather forecast ",
+    "uid" : "b9753c78d6cc6cdab25820215e073b25",
+    "name" : "6_Most dominant windspeed and direction",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,30 @@
       "total" : 2
     }
   }, {
-    "uid" : "0f8ac7a92cd9acc0020d343ac5274131",
-    "name" : "Hide 3 hour weather forecast ",
+    "uid" : "c8038b0482c57c721cba0dc95edb9755",
+    "name" : "7_Aggregate rainfall",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "7cb42965a503e42a7bfafcb5b0d8dae7",
+    "name" : "8_Min and Max temperature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "7cfcac20f4404c2db40b1db4b98a306e",
+    "name" : "2_View 5 day weather forecast",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -45,8 +67,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "cbdf7dde62802ae720652487832a9db9",
-    "name" : "View details of current condition",
+    "uid" : "c1e2c179bc9bedd1a75ec83749878038",
+    "name" : "3_View 3 hourly weather forecast ",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -56,8 +78,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "e0e15b5e69224b3bf1a8f9bfb565cdfa",
-    "name" : "View details of dominant windspeed",
+    "uid" : "d2db6b85e3d960b3d0f00cff75a34e19",
+    "name" : "4_Hide 3 hour weather forecast ",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -67,19 +89,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "581c17e0e3d268402037472fbb7dbf6f",
-    "name" : "View details of aggregate rainfall",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "038fd240ac7a110155a5e5d25f49d516",
-    "name" : "View details of Min and Maximum temperatures",
+    "uid" : "35b09852a8478c582fa3c1e40d788a77",
+    "name" : "5_Most dominant current condition",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
