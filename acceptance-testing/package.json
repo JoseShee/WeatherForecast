@@ -37,7 +37,7 @@
   "dependencies": {
     "axios": "^0.13.1",
     "express": "^4.14.0",
-    "lodash": "^4.15.0",
+    "lodash": "^4.17.21",
     "moment": "^2.14.1",
     "radium": "^0.18.1",
     "react": "^15.2.1",
